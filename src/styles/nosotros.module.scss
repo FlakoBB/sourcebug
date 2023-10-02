@@ -1,0 +1,10 @@
+@use 'colors' as clr;
+
+.attribution {
+  font-size: 1.5rem;
+}
+
+.name {
+  color: clr.$mainBlue;
+  font-weight: 700;
+}
