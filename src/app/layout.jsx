@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import '@/styles/globals.scss'
 import { Podkova } from 'next/font/google'
 
@@ -11,7 +12,10 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang='es'>
-      <body className={podkova.className}>{children}</body>
+      <body className={podkova.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
