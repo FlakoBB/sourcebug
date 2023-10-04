@@ -8,4 +8,5 @@ const Nosotros = () => {
     </div>
   )
 }
+
 export default Nosotros

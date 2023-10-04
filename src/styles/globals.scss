@@ -9,13 +9,13 @@
 
 html {
   font-size: 16px;
-}
 
-body {
-  min-height: 100dvh;
-  background-color: clr.$smoke;
-}
+  body {
+    min-height: 100dvh;
+    background-color: clr.$smoke;
 
-h1 {
-  color: clr.$mainBlue;
+    h1 {
+      color: clr.$mainBlue;
+    }
+  }
 }
