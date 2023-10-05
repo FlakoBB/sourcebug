@@ -41,7 +41,7 @@
         font-size: 1.5rem;
         font-weight: 500;
         text-decoration: none;
-        padding: .6rem 0;
+        padding: .3rem 0;
 
         &::after {
           content: '';
@@ -67,8 +67,7 @@
     @include mxn.flex_center;
     width: 18rem;
     height: 2rem;
-    padding: 0 0 0 .6rem;
-    border-bottom: 1px solid clr.$mainBlue;
+    border-bottom: 2px solid clr.$mainBlue;
     font-size: 1.2rem;
     overflow: hidden;
 
@@ -78,13 +77,15 @@
       border: none;
       outline: none;
       font-size: 1em;
+      font-family: inherit;
     }
 
     .search_btn {
       flex-shrink: 0;
       height: 100%;
-      width: 2.4rem;
-      padding-right: .2rem;
+      width: auto;
+      aspect-ratio: 1 / 1;
+      border-radius: .2rem;
       font-size: 1em;
       color: clr.$mainBlue;
       background: none;

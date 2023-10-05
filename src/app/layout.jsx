@@ -14,7 +14,9 @@ export default function RootLayout ({ children }) {
     <html lang='es'>
       <body className={podkova.className}>
         <Header />
-        {children}
+        <main className='main_container'>
+          {children}
+        </main>
       </body>
     </html>
   )
