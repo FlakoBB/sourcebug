@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Novedades en HTML",
+    "description": "descripcion sobre el articulo de Novedades en HTML",
+    "category": "software",
+    "url": "/articles/software/novedades-html.md",
+    "date": "2023-10-1",
+    "autor": "AlanPrz"
+  },
+  {
+    "id": "2",
+    "title": "Nuevo Warzone",
+    "description": "descripcion sobre el articulo de el nuevo WARZONE",
+    "category": "gaming",
+    "url": "/articles/gaming/nuevo-warzone.md",
+    "date": "2023-10-1",
+    "autor": "AlanPrz"
+  }
+]
